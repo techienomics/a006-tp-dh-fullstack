@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flexbox</title>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+	<h2>Sin Flexbox</h2>
+	<div class="container">
+		<div class="box">
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex;</h2>
+	<div class="container dFlex">
+		<div class="box">
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap;</h2>
+	<div class="container dFlex fwWrap">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">5
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">6
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">7
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap-reverse;</h2>
+	<div class="container dFlex fwWrapReverse">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">5
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">6
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">7
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; flex-direction: row-reverse</h2>
+	<div class="container dFlex fwWrap fdRowReverse">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">5
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">6
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">7
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; flex-direction: column;</h2>
+	<div class="container dFlex fwWrap fdColumn" style="height: 800px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">5
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">6
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">7
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; flex-direction: column-reverse;</h2>
+	<div class="container dFlex fwWrap fdColumnReverse" style="height: 800px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">5
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">6
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">7
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; justify-content: flex-end;</h2>
+	<div class="container dFlex fwWrap jcFlexEnd">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; justify-content: center;</h2>
+	<div class="container dFlex fwWrap jcCenter">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; justify-content: space-between;</h2>
+	<div class="container dFlex fwWrap jcSpBet">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+		<div class="box">4
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; justify-content: space-around;</h2>
+	<div class="container dFlex fwWrap jcSpAro">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; align-items: strecth;</h2>
+	<div class="container dFlex fwWrap aiStr" style="min-height: 500px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+			<p>Lorem, ipsum dolor.</p>
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; align-items: flex-start;</h2>
+	<div class="container dFlex fwWrap aiFlexStart" style="height: 600px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+			<p>Lorem ipsum dolor</p>
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; align-items: center;</h2>
+	<div class="container dFlex fwWrap aiCenter" style="height: 600px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+			<p>Lorem ipsum dolor</p>
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+
+	<h2>display: flex; flex-wrap: wrap; align-items: flex-end;</h2>
+	<div class="container dFlex fwWrap aiFlexEnd" style="height: 600px;">
+		<div class="box">1
+			<img src="images/icon-walt.svg" alt="walt">
+			<p>Lorem ipsum dolor</p>
+		</div>
+		<div class="box">2
+			<img src="images/icon-pipe.svg" alt="pipe">
+		</div>
+		<div class="box">3
+			<img src="images/icon-mask.svg" alt="mask">
+		</div>
+	</div>
+</body>
+</html>

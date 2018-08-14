@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 10px;
+	background-color: #f2f2f2;
+}
+
+img{
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+	background-color: #d7d027;
+	color: #fff;
+	font-size: 3em;
+	padding: 15px;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+	padding: 15px;
+	background-color: #2a4f08;
+}
+
+.box {
+	width: 200px;
+	min-height: 200px;
+	padding: 15px;
+	background-color: #d7d027;
+	border: solid 1px #fff;
+	font-size: 4em;
+	text-align: center;
+}
+
+.dFlex {
+	display: flex;
+}
+
+.fwWrap {
+	flex-wrap: wrap;
+}
+
+.fwWrapReverse {
+	flex-wrap: wrap-reverse;
+}
+
+.fdRowReverse {
+	flex-direction: row-reverse;
+}
+
+.fdColumn {
+	flex-direction: column;
+}
+
+.fdColumnReverse {
+	flex-direction: column-reverse;
+}
+
+.jcFlexEnd {
+	justify-content: flex-end;
+}
+
+.jcCenter {
+	justify-content: center;
+}
+
+.jcSpBet {
+	justify-content: space-between;
+}
+
+.jcSpAro {
+	justify-content: space-around;
+}
+
+.aiStr {
+	align-items: stretch;
+}
+
+.aiFlexStart {
+	align-items: flex-start;
+}
+
+.aiCenter {
+	align-items: center;
+}
+
+.aiFlexEnd {
+	align-items: flex-end;
+}
